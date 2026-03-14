@@ -1,0 +1,37 @@
+.dialog-reset {
+  .el-dialog__title {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .created-from {
+    /deep/ .el-input, .el-textarea {
+      width: 320px;
+    }
+  }
+}
+.el-select{
+  width: 100%;
+}
+
+.el-dialog__wrapper {
+  .el-dialog {
+    margin-top: 5vh !important;
+    max-height: 90vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .el-dialog__body {
+    flex: 1 auto;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  .el-alert{
+    line-height: 18px;
+  }
+}
+
+.base .el-loading-mask{
+  z-index: 20000;
+}
